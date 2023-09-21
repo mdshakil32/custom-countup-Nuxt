@@ -1,5 +1,5 @@
-### Whenever the counter section enters into the view viewport, the intersection observer detects it and triger the counter function.
-###  Nuxt 3 provides by default Intersection Observer, which is utilised here.
+#### Whenever the counter section enters into the view viewport, the intersection observer detects it and triger the counter function.
+####  Nuxt 3 provides by default Intersection Observer, which is utilised here.
 
 # Nuxt 3 Minimal Starter
 
