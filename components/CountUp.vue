@@ -1,5 +1,5 @@
 <template>
-  <div ref="counterRef">
+  <div ref="counterRef" class="wrapper">
     <p class="number">
       {{ currentCount }}
     </p>
@@ -66,5 +66,15 @@ onUnmounted(() => {
 .number {
   font-size: 40px;
   font-weight: 700;
+}
+.wrapper {
+  width: 150px;
+  margin: 0 auto;
+
+  background: rgba(0, 128, 255, 0.318);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 </style>
